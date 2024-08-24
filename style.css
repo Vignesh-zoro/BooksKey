@@ -1,0 +1,143 @@
+*
+{
+    padding: 0;
+    margin: 0;
+}
+
+nav
+{
+    background-color: yellow;
+    width: 100%;
+    height: 70px;
+    display: flex;
+    justify-content: space-between;
+}
+.h1
+{
+    padding: 10px;
+    display: flex;
+    width: 50%;
+    margin: 10px;
+    font-size: 20px;
+}
+.ancor 
+{
+    padding: 20px;
+    width: 40%;
+    font-size: 20px;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+.ancor a
+{
+    text-decoration: none;
+}
+.container
+{
+    padding: 15px;
+}
+.bookcontainer
+{
+    background-color: pink;
+    padding: 20px; 
+    margin: 10px;
+    width: 25%;
+    line-height: 23px;
+    border-radius: 20px;
+    display: inline-block;
+    vertical-align: top;
+}
+.btns
+{
+    border: 0;
+    color: white;
+    background-color: black;
+    padding: 10px;
+    border-radius: 20px;
+    margin-top: 10px;
+}
+.overlay
+{
+    background-color: black;
+    opacity: 0.7;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.popbox
+{
+    background-color: aqua;
+    width: 45%;
+    padding: 40px;
+    position: absolute;
+    border-radius: 20px;
+    z-index: 3;
+    left: 30%;
+    top: 20%;
+    display: none;
+}
+.popbox input
+{
+    background-color: transparent;
+    width: 100%;
+    padding: 5px;
+    margin: 10px 5px;
+    font-size: 20px;
+    border: 0;
+    border-bottom: solid black;
+}
+.popbox textarea
+{
+    background-color: transparent;
+    width: 100%;
+    padding: 10px;
+    margin: 10px 5px;
+    font-size: 20px;
+    border: solid black;
+    border-radius: 15px;
+}
+.popbox input:focus
+{
+    outline: none;
+}
+.popbox textarea:focus
+{
+    outline: none;
+}
+.addbtn
+{
+    margin: 10px 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+
+}
+.cancelbtn
+{
+    margin: 10px 5px;
+    padding: 10px;
+    background-color: black;
+    color: white;
+    border: 0;
+    border-radius: 10px;
+
+}
+.btn
+{
+    background-color: black;
+    color: white;
+    border-radius: 100%;
+    padding: 10px 20px;
+    font-size: 30px;
+    border: 0;
+    position: fixed;
+    right: 30px;
+    bottom: 30px;
+}
